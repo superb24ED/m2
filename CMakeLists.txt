@@ -6,6 +6,6 @@ cmake_minimum_required (VERSION 3.8)
 project ("md5")
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (md5_hash "md5.cpp" "md5.h" )
+add_executable (md5 "md5.cpp" "md5.h" )
 
 # TODO: 如有需要，请添加测试并安装目标。
